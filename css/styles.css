@@ -218,3 +218,29 @@ footer p{
     padding: 15px 0;
     color: #fff;
 }
+
+/* modale */
+p.popUp{
+    color:red ;
+    font-size: 15rem;
+    font-weight: 700;
+  }
+.modale{
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.visible{
+  display: flex;
+  
+}
