@@ -108,3 +108,113 @@ color: #fff;
     color: #fff;
     padding: 6px 20px;
 }
+
+/* section produit */
+
+.produits{
+    background:#ECF0F1 ;
+}
+
+.produits h2{
+    font: 700 2.25rem/1.1389em "Josefin Sans";
+    color: #474747;
+    padding-top: 75px;
+    margin: 0;
+}
+.produits .sous_titre{
+    font: 400 1.125rem/1.1667em "Roboto" ;
+    color: #474747;
+}
+.cases{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 37px;
+    padding: 12px 0 82px;
+}
+.cases article{
+   
+    min-height: 230px;
+    background:#fff ;
+    padding: 30px;
+}
+.cases h3{
+    font: 700 1.375rem/1.1364em "Josefin Sans";
+    text-transform: uppercase;
+    color: #E25254;
+    margin:0 0 24px;
+}
+.cases article:hover{
+    background: #E25254;
+}
+ .cases article:hover>*{
+    
+    color: #fff;
+}
+
+/* section conseil */
+
+.conseils{
+    background: #E25254;
+    background-image: url(../images/tiling.png);
+}
+.conseils h2{
+    font: 700 2.25rem/1.1389em "Josefin Sans";
+    color: #fff;
+    padding-top: 80px;
+    margin: 0;
+}
+.conseils .sous_titre{
+    font: 400 1.125rem/1.1667em "Roboto" ;
+    color: #fff;
+}
+
+.conseils .carte{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 37px;
+    padding: 40px 0 72px;
+}
+.carte article{
+    background: #fff;
+    min-height: 335px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conseils h3{
+    font: 700 1.375rem/1.1364em "Josefin Sans";
+    text-transform: uppercase;
+    color: #E25254;
+    margin:40px 0 35px;
+
+}
+.conseils .carte .titre{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 30px;
+}
+.conseils article p{
+    padding: 0 35px  0 70px;
+}
+.carte .bouton{
+    align-self: flex-end;
+    font: 400 1.125rem/1.5556em "Roboto" ;
+    color: #000;
+    margin: 20px 25px 0 0;
+}
+
+
+/* footer */
+footer{
+    background: #E25254;
+}
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    padding: 15px 0;
+    color: #fff;
+}
